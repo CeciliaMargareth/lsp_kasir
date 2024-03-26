@@ -12,6 +12,9 @@ if(isset($_POST['edit'])) {
 	Data berhasil di tambah
 	<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 	</div>';
+
+	header("Location: cetak.php?idtransaksi=$idtransaksi");
+    exit;
 }
 ?>
 <!DOCTYPE html>
